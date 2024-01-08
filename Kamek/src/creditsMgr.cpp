@@ -1,7 +1,7 @@
 #include <game.h>
 #include <sfx.h>
 #include <dCourse.h>
-#include <stage.h>
+#include <game/stage.h>
 #include <playeranim.h>
 #include <newer.h>
 void *EGG__Heap__alloc(unsigned long size, int unk, void *heap);

@@ -4,7 +4,7 @@
 #include "koopatlas/player.h"
 #include "koopatlas/map.h"
 #include <sfx.h>
-#include <stage.h>
+#include <game/stage.h>
 
 extern "C" void PlaySoundWithFunctionB4(void *spc, nw4r::snd::SoundHandle *handle, int id, int unk);
 

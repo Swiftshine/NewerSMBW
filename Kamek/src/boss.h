@@ -4,7 +4,7 @@
 #include <common.h>
 #include <game.h>
 #include <g3dhax.h>
-#include <stage.h>
+#include <game/stage.h>
 #include <sfx.h>
 
 

@@ -1,6 +1,6 @@
 #include <common.h>
 #include <actor/actorlist.h>
-#include <stage.h>
+#include <game/stage.h>
 #include "levelinfo_old.h"
 #include "fileload.h"
 #include "layoutlib.h"

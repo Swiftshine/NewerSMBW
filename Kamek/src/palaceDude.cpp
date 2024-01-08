@@ -1,5 +1,5 @@
 #include <game.h>
-#include <stage.h>
+#include <game/stage.h>
 #include "msgbox.h"
 #include "boss.h" // for stopbgmmusic and crap
 

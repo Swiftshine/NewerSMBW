@@ -2,7 +2,7 @@
 #include <game.h>
 #include <g3dhax.h>
 #include <sfx.h>
-#include <stage.h>
+#include <game/stage.h>
 #include "boss.h"
 
 int KeyCounter = 0;

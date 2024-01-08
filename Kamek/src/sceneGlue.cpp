@@ -1,5 +1,5 @@
 #include <game.h>
-#include <stage.h>
+#include <game/stage.h>
 
 extern char CurrentLevel, CurrentWorld;
 extern u8 MaybeFinishingLevel[2];

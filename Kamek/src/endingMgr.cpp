@@ -1,7 +1,7 @@
 #include <game.h>
 #include <playerAnim.h>
 #include <sfx.h>
-#include <stage.h>
+#include <game/stage.h>
 extern void *SoundRelatedClass;
 
 class dEndingMgr_c : public daBossDemo_c {
