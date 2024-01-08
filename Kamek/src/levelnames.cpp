@@ -1,5 +1,5 @@
 #include <common.h>
-#include <actors.h>
+#include <actor/actorlist.h>
 #include <stage.h>
 #include "levelinfo_old.h"
 #include "fileload.h"

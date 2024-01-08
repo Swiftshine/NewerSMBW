@@ -421,7 +421,7 @@ u32 QueryGlobal5758(u32 check);
 
 void SaveGame(void *classDoesntMatter, bool isQuick);
 
-#include <actors.h>
+#include <actor/actorlist.h>
 void *CreateParentedObject(short classID, void *parent, int settings, char something);
 void *CreateChildObject(short classID, void *parent, int settings, int unk1, int unk2);
 

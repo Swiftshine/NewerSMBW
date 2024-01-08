@@ -1,4 +1,4 @@
-#include <actors.h>
+#include <actor/actorlist.h>
 #include "nsmbwVer.h"
 
 // Get the appropriate ID based on game version
