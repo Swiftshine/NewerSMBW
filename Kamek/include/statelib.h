@@ -1,3 +1,5 @@
+#ifndef STATELIB_H
+#define STATELIB_H
 // This is no longer totally accurate to Nintendo's version.
 // Should still work for Newer, though.
 
@@ -205,3 +207,4 @@ public:
 };
 
 
+#endif
