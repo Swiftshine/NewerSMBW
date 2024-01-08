@@ -2,6 +2,8 @@
 #define PLAYER_H
 #include <common.h>
 #include <actor/stageactor.h>
+#include <actor/multistateactor.h>
+
 #include <game/statewrapper.h>
 class daPlBase_c : public dStageActor_c {
 	public:
@@ -63,6 +65,19 @@ public:
 	int afterDraw(int);
 	
 	~dAc_Py_c();
+};
+
+class dPlayer : public dActorMultiState_c {
+
+public:
+	USING_STATES(dPlayer);
+	REF_NINTENDO_STATE(None);
+	REF_NINTENDO_STATE(Walk);
+	REF_NINTENDO_STATE(Jump);
+	REF_NINTENDO_STATE(DemoNone);
+	REF_NINTENDO_STATE(DemoWait);
+	REF_NINTENDO_STATE(DemoGoal);
+	REF_NINTENDO_STATE(DemoControl);
 };
 
 typedef dAcPy_c Player;
