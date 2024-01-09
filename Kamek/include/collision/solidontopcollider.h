@@ -10,7 +10,7 @@ class StandOnTopCollider : public BasicCollider {
 		void update();
 
 		void init(dStageActor_c *owner,
-				float _4C, float _50, float topYOffset,
+				float xOffset, float yOffset, float topYOffset,
 				float rightSize, float leftSize,
 				s16 rotation, u8 unk_45, Vec2 *scale = 0);
 
@@ -25,5 +25,7 @@ class StandOnTopCollider : public BasicCollider {
 		// 4C and 50 might be X/Y offset. Not affected by rotation
 		float _4C, _50, topYOffset, rightSize, leftSize;
 };
+
+typedef StandOnTopCollider SolidOnTopCollider;
 
 #endif

@@ -105,5 +105,6 @@ public:
 	static u8 creatingLayerID; // 0x8042A000
 };
 
+typedef dStageActor_c StageActor;
 
 #endif
